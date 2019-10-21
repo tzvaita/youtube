@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 150;
+    background: #fff;
+}
+
+.nav-box {
+    padding: 20px;
+    height: 56px;
+}
+
+#nav {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.search {
+    margin: 0 auto;
+}
+
+.search-form input {
+    border: 1px solid grey;
+    width: 500px;
+    background: #f1f1f1;
+    padding: 7px;
+}
+
+.apps {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 7px;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}

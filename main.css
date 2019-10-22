@@ -13,7 +13,7 @@
 }
 
 .nav-box {
-    padding: 20px;
+    padding: 10px;
     height: 56px;
 }
 
@@ -27,23 +27,75 @@
     width: 150px;
 }
 
+.menu-box {
+    padding: 9px 0;
+}
+
+.logo-box {
+    padding: 9px;
+}
+
 .search {
     margin: 0 auto;
 }
 
 .search-form input {
-    border: 1px solid grey;
-    width: 500px;
-    background: #f1f1f1;
     padding: 7px;
+    font-size: 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px 0 0 2px;
+    float: left;
+    width: 565px;
+    background: #fff;
+    color: #383838;
 }
+
+.search-form button {
+    padding: 6.5px 25px;
+    background: #f8f8f8;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 0 2px 2px 0;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .search-form button:hover {
+    background: #f1f1f1;
+  }
+
+  button img {
+      width: 15px;
+      height: 15px;
+      color: #f1f1f1;
+  }
+
+  /* Clear floats */
+.search-form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .apps {
     display: grid;
-    grid-template-columns: repeat(4, 30px);
+    grid-template-columns: repeat(8, 25px);
     justify-content: space-around;
-    margin-left: auto;
-    padding: 7px;
+    padding: 9px;
+}
+
+.tile-menu {
+    grid-column: 3
+}
+
+.bell {
+    grid-column: 5;
+}
+
+.picture {
+    grid-column: 7;
 }
 
 img {

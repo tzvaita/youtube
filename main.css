@@ -156,3 +156,17 @@ img {
     background: #66cdaa;
 }
 
+.text-above-thumnails-container {
+    display: flex;
+    position: relative;
+}
+
+.autoplay {
+    display: flex;
+}
+
+.autoplay-switch {
+    float: inline-end;
+    width: 30px;
+    height: 30px;
+}

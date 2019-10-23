@@ -176,7 +176,6 @@ img {
 
 .video-text-details-container {
     float: right;
-    display: inline;
     margin-right: 60px;
 }
 
@@ -225,12 +224,6 @@ img {
 .avatar img {
     width: 50px;
     height: 40px;
-}
-
-*/
-.page-owner {
-    /* position: relative; */
-    
 }
 
 .subscribe {

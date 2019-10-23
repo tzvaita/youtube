@@ -156,17 +156,49 @@ img {
     background: #66cdaa;
 }
 
-.text-above-thumnails-container {
-    display: flex;
+.text-above-thumbnails-container {
     position: relative;
+    bottom: 15px;
 }
 
-.autoplay {
-    display: flex;
+.auto-play-text {
+    position: relative;
+    bottom: 15px;
+    left: 160px;
+    text-transform: uppercase;
+    color: #777;
+    font-size: 14px;
 }
 
-.autoplay-switch {
-    float: inline-end;
-    width: 30px;
-    height: 30px;
+.switch-button {
+    position: relative;
+    left: 180px;
+    top: -10px;
+}
+
+.next-videos-container {
+    position: relative;
+    bottom: 10px;
+    left: 2px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+
+.video-text-details-container {
+    float: right;
+    display: inline;
+    margin-right: 60px;
+}
+
+.next-videos-container img {
+    width: 170px;
+    height: 95px;
+}
+
+#views {
+    color: #777;
+    display: inline;
+    position: relative;
+    top: 15px;
 }

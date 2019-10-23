@@ -202,3 +202,35 @@ img {
     position: relative;
     top: 15px;
 }
+
+.buttons-container {
+    float: right;
+    margin-right: 25px;
+    position: relative;
+    bottom: 5px;
+    color: #777;
+    font-weight: bold;
+    text-decoration: uppercase;
+    font-size: 12px;
+}
+
+.avatar {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 45px;
+    display: flex;
+}
+
+.avatar img {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+
+*/
+.page-owner {
+    position: relative;
+}

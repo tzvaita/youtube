@@ -10,6 +10,7 @@ New html element, video element, iframe elements
 CSS Grid, Flexbox
 
 #### Contributors: 
+
 Tennyson Zvaita
 [Github](https://github.com/tzvaita)
 [LinkedIn](https://www.linkedin.com/in/tennyson-takudzwa-zvaita-3b421485/)

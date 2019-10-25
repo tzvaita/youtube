@@ -492,5 +492,13 @@ img {
     width: 30px;
     height: 30px;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 70px;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: #cc0000;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
 }

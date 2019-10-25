@@ -4,10 +4,10 @@
 A video viewing page of youtube with its sidebar and the call to action buttons
 
 #### Things Learnt:
-New html element, video element, iframe elements
+Html elements: video element, iframe elements
 
 #### Tools Used:
-CSS Grid, Flexbox
+HTML5, CSS Grid, Flexbox
 
 #### Contributors: 
 
@@ -22,5 +22,3 @@ Tennyson Zvaita
  [LinkedIn](https://www.linkedin.com/in/adewale-thomas-orotayo/)
  [Twitter](https://twitter.com/Didy707)
 
-###### Live Version
-https://rawcdn.githack.com/tzvaita/youtube/3f3b172f294abe849d17174c199ea7afe901751d/index.html

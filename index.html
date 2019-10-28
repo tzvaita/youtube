@@ -5,19 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YouTube</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <!-- start of navbar -->
     <div id="container">
-    <div id="nav">
-        <img src="pics/menu-button-of-three-horizontal-lines.png" alt="menu">
-        <img src="logo.jpeg" alt="logo">
-        <input type="text" placeholder="Search..">
-        <img src="pics/videocam-filled-tool.png" alt="camera-icon">
-        <img src="pics/menu.png" alt="tile-menu">
-        <img src="pics/notifications-bell-button.png" alt="notificaton-bell">
-        
+        <div class="nav-box">
+            <div id="nav">
+                <div class="left">
+                    <div class="menu-box">
+                        <img src="pics/menu-button-of-three-horizontal-lines.png" alt="menu">
+                    </div>
+                    <div class="logo-box">
+                        <img src="pics/youtr.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="search">
+                    <form action="#" method="get" class="search-form">
+                        <input type="text" name="search-query" id="search-box" placeholder="Search">
+                        <button type="submit"><img src="pics/magnifying-glass.png" alt="search-icon"></button>
+                    </form>
+                </div>
+                <div class="apps">
+                    <div class="camera">
+                        <img src="pics/videocam-filled-tool.png" alt="camera-icon">
+                    </div>
+                    <div class="tile-menu">
+                        <img src="pics/menu.png" alt="tile-menu">
+                    </div>
+                    <div class="bell">
+                        <img src="pics/notifications-bell-button.png" alt="notificaton-bell">
+                    </div>
+                    <div class="picture">
+                        <img src="pics/user.png" alt="user">
+                    </div>
+                </div>
+                
+    
+            </div>
+        </div>
+    </div>
 
-    </div>
-    </div>
+    <!--End of NavBar-->
+
+    <!--Start of left section-->
+    <main class="main-container">
+        <div class="primary-container">
+            <div class="left-container">
+                <div class="video-container">
+                    <iframe class="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; 
+                    autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="vdt-container">
+                    <p class="title">Contributing to Open Source Part I: The Easy Way</p>
+                    <div class="buttons-container">
+                        <p id="views">53200 views </p>
+                        <div class="cta">
+                            <img src="pics/like.png" alt="like button">
+                            <span class="statistics">49K</span> 
+                            <img src="pics/unlike.png" alt="unlike button">
+                            <span class="statistics">3K</span>
+                            <img src="pics/share-icon.png" alt="share button">
+                            <span class="statistics">Share</span> 
+                        </div>    
+                    </div>
+
+                    <div class="avatar">
+                        <img src="pics/T.png" alt="avatar">
+                        <span class="page-owner">Microverse-students</span>
+                    
+
+                        <div class="subscribe">
+                            <button class="subscribe-btn">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="sub-container">
+                        <div class="text-above-thumbnails-container">
+                                <div class="up-next">Up next</div>
+                                <div class="autoplay-icons">
+                                    <div class="auto-play-text">Autoplay</div>
+                                    <img class="switch-button" src="pics/37474.png" alt="Turn on or off Autoplay" width="40">
+                                </div>
+                            </div>
+                    <div class="next-videos-container added">
+                        <img src="pics/pexels-photo-417142.jpeg" alt="pexels">
+            
+                        <div class="video-text-details-container">
+                            <p class="titles-right-column">Cool Video</p>
+                            <p class="right-channel-description">Great Channel</p>
+                            <p class="right-channel-description1">Recommended for you</p>
+                            <span class="sidebar-view">1.4M views</span>
+                        </div>
+                    </div>
+                    <div class="next-videos-container">
+                        <img src="pics/wind.jpg" alt="wind" >
+                        <div class="video-text-details-container">
+                            <p class="titles-right-column">Cool Video</p>
+                            <p class="right-channel-description">Great Channel</p>
+                            <p class="right-channel-description1">Recommended for you</p>
+                            <span class="sidebar-view">1.4M views</span>
+                        </div>
+                    </div>
+                    <div class="next-videos-container">
+                        <img src="pics/bike.jpeg" alt="bike">
+                            <div class="video-text-details-container">
+                                <p class="titles-right-column">Cool Video</p>
+                                <p class="right-channel-description">Great Channel</p>
+                                <p class="right-channel-description1">Recommended for you</p>
+                                <span class="sidebar-view">1.4M views</span>
+                            </div>
+                    </div>
+                    <div class="next-videos-container">
+                        <img src="pics/bike.jpeg" alt="bike">
+                            <div class="video-text-details-container">
+                                <p class="titles-right-column">Cool Video</p>
+                                <p class="right-channel-description">Great Channel</p>
+                                <p class="right-channel-description1">Recommended for you</p>
+                                <span class="sidebar-view">1.4M views</span>
+                            </div>
+                    </div>
+                    <div class="next-videos-container">
+                        <img src="pics/bike.jpeg" alt="bike">
+                            <div class="video-text-details-container">
+                                <p class="titles-right-column">Cool Video</p>
+                                <p class="right-channel-description">Great Channel</p>
+                                <p class="right-channel-description1">New</p>
+                                <span class="sidebar-view">1.4M views</span>
+                            </div>
+                    </div>
+                    <div class="next-videos-container">
+                        <img src="pics/bike.jpeg" alt="bike">
+                            <div class="video-text-details-container">
+                                <p class="titles-right-column">Cool Video</p>
+                                <p class="right-channel-description">Great Channel</p>
+                                <p class="right-channel-description1">Recommended for you</p>
+                                <span class="sidebar-view">1.4M views</span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
